@@ -70,10 +70,11 @@
             this.esemenyDataGridViewTextBoxColumn,
             this.datumDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tanversenyBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(206, 23);
+            this.dataGridView1.Location = new System.Drawing.Point(179, 23);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(716, 271);
+            this.dataGridView1.Size = new System.Drawing.Size(727, 271);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // azonositoDataGridViewTextBoxColumn
             // 
@@ -145,16 +146,18 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 120);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button1";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
+            this.button3.FlatAppearance.BorderSize = 40;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(27, 329);
+            this.button3.Margin = new System.Windows.Forms.Padding(50);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 120);
             this.button3.TabIndex = 1;
-            this.button3.Text = "button1";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -175,25 +178,27 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(178, 329);
+            this.groupBox1.Location = new System.Drawing.Point(179, 329);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(744, 157);
+            this.groupBox1.Size = new System.Drawing.Size(727, 157);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Adatkezelés";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(468, 27);
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(452, 27);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(258, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(243, 20);
             this.dateTimePicker1.TabIndex = 2;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(132, 100);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(302, 20);
+            this.textBox3.Size = new System.Drawing.Size(300, 20);
             this.textBox3.TabIndex = 1;
             // 
             // label4
@@ -210,7 +215,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(132, 64);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(302, 20);
+            this.textBox2.Size = new System.Drawing.Size(300, 20);
             this.textBox2.TabIndex = 1;
             // 
             // label3
@@ -227,7 +232,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(132, 27);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(302, 20);
+            this.textBox1.Size = new System.Drawing.Size(300, 20);
             this.textBox1.TabIndex = 1;
             // 
             // label2
@@ -244,7 +249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(965, 557);
+            this.ClientSize = new System.Drawing.Size(939, 557);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);

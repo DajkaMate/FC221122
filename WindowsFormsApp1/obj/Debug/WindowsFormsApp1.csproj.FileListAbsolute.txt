@@ -24,3 +24,16 @@ C:\Users\dajka.mate\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.G
 C:\Users\dajka.mate\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\dajka.mate\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\dajka.mate\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\bin\Debug\Database1.mdf
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\bin\Debug\Database1_log.ldf
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Dajka.mate\Source\Repos\FC221122\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
